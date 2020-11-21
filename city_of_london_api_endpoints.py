@@ -50,7 +50,7 @@ PARKS = 'https://opendata.arcgis.com/datasets/83b7006bcc8e43ee88c434a85e5a857e_3
 PARK_AMENITIES = 'https://opendata.arcgis.com/datasets/716311972be047f39a5937247ed80a2c_1.geojson'
 
 WATERBODIES = 'https://opendata.arcgis.com/datasets/04d375a6836f414e835c2fad405c9643_7.geojson'
-WATERCOURSES = 'https://opendata.london.ca/datasets/01ba1344b72e41dbb12c4e7f49722303_8'
+WATERCOURSES = 'https://opendata.arcgis.com/datasets/01ba1344b72e41dbb12c4e7f49722303_8.geojson'
 WATER = 'https://opendata.arcgis.com/datasets/46d82aeb310147e1b464fafdbea2b868_49.geojson'
 WATER_EDGES = 'https://opendata.arcgis.com/datasets/e44b267fa22a43018e19b9880c4c461b_50.geojson'
 
@@ -100,3 +100,55 @@ SMOKESTACKS = 'https://opendata.arcgis.com/datasets/10d768187a7044e49c2d6c24dfff
 # within the municipal boundaries of the City of London as identified through aerial imagery.
 SPOT_HEIGHT = 'https://opendata.arcgis.com/datasets/b20be4fb7fb34bcca5d00f17290bb7df_37.geojson'
 TRUCK_ROUTES = 'https://opendata.arcgis.com/datasets/12238060346c4471ae92a8c610166549_17.geojson'
+
+EVERYTHING = {'LONDON_CANADA_CITY_BOUNDARY': LONDON_CANADA_CITY_BOUNDARY, 
+              'PLANNING_DISTRICTS': PLANNING_DISTRICTS, 
+              'HERITAGE_CONSERVATION_DISTRICTS': HERITAGE_CONSERVATION_DISTRICTS, 
+              'HISTORIC_LOTS_AND_CONCESSIONS': HISTORIC_LOTS_AND_CONCESSIONS, 
+              'HISTORIC_SITES' : HISTORIC_SITES, 
+              'HERITAGE_PARCELS' : HERITAGE_PARCELS, 
+              'CEMETARIES' : CEMETARIES, 
+              'WALKWAYS' : WALKWAYS, 
+              'BICYCLE_ROUTES_AND_WALKING_TRAILS' : BICYCLE_ROUTES_AND_WALKING_TRAILS, 
+              'BIKE_ROUTES_ON_STREET' : BIKE_ROUTES_ON_STREET, 
+              'SIDEWALKS' : SIDEWALKS, 
+              'SIDEWALKS_TOPO' : SIDEWALKS_TOPO, 
+              'TRAILS' : TRAILS, 
+              'SCHOOL_CROSSINGS' : SCHOOL_CROSSINGS, 
+              'INTERSECTION_TYPES' : INTERSECTION_TYPES, 
+              'PEDESTRIAN_CROSSOVERS' : PEDESTRIAN_CROSSOVERS, 
+              'SIGNAIZED_INTERSECTIONS' : SIGNAIZED_INTERSECTIONS, 
+              'STEPS' : STEPS, 
+              'PUBLIC_ART' : PUBLIC_ART, 
+              'TREE_INVENTORY' : TREE_INVENTORY, 
+              'TREES' : TREES, 
+              'LIBRARIES' : LIBRARIES, 
+              'PARKS' : PARKS, 
+              'PARK_AMENITIES' : PARK_AMENITIES, 
+              'WATERBODIES' : WATERBODIES, 
+              'WATERCOURSES' : WATERCOURSES, 
+              'WATER' : WATER, 
+              'WATER_EDGES' : WATER_EDGES, 
+              'RACETRACKS' : RACETRACKS, 
+              'RUINS' : RUINS, 
+              'TOWERS' : TOWERS, 
+              'FIRE_HYDRANTS' : FIRE_HYDRANTS, 
+              'SCHOOLS' : SCHOOLS, 
+              'SINGLE_LINE_ROADS' : SINGLE_LINE_ROADS, 
+              'BUSINESS_IMPROVEMENT_AREAS' : BUSINESS_IMPROVEMENT_AREAS, 
+              'COMMUNITY_IMPROVEMENT_PROJECT_AREAS' : COMMUNITY_IMPROVEMENT_PROJECT_AREAS, 
+              'NEAR_CAMPUS_NEIGHBOURHOOD_AREA' : NEAR_CAMPUS_NEIGHBOURHOOD_AREA, 
+              'BRIDGES' : BRIDGES, 
+              'BRIDGES_TOPO' : BRIDGES_TOPO, 
+              'RAILWAYS' : RAILWAYS, 
+              'RAILWAYS_TOPO' : RAILWAYS_TOPO, 
+              'BUILDING_OUTLINES' : BUILDING_OUTLINES, 
+              'BUILDINGS' : BUILDINGS, 
+              'DAMS' : DAMS, 
+              'DOCKS' : DOCKS, 
+              'OVERHEAD_WALKWAYS' : OVERHEAD_WALKWAYS, 
+              'PUBLIC_POOLS' : PUBLIC_POOLS, 
+              'SILOS' : SILOS, 
+              'SMOKESTACKS' : SMOKESTACKS, 
+              'SPOT_HEIGHT' : SPOT_HEIGHT, 
+              'TRUCK_ROUTES' : TRUCK_ROUTES}
